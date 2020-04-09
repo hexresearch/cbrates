@@ -6,9 +6,9 @@ mkDerivation {
   pname = "fuzzy-parse";
   version = "0.1.1.0";
   src = fetchgit {
-    url = "git@github.com:hexresearch/fuzzy-parse.git";
-    sha256 = "0ss5npmxbv498ziblr766mz2q6cy5nkm6zi3y9cpfyb3bkax8cfj";
-    rev = "99643c1d49822b943707c7f26b6777f2b227672e";
+    url = "https://github.com/hexresearch/fuzzy-parse.git";
+    sha256 = "12xyi5fwvb1zxbsis3wrxpf02i94piqwsk3wjmcsvmrqky15aqii";
+    rev = "b289e699b39073f0987200594896d26cb56813b5";
     fetchSubmodules = true;
   };
   libraryHaskellDepends = [
